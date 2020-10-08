@@ -1,0 +1,25 @@
+* {
+    padding:0;
+    margin :0;
+    box-sizing: border-box;
+}
+.menu-ngang {
+	background: red;
+	border: 1px solid black ;
+	width: 100%;
+	text-align: center;
+}
+.menu-ngang ul li {
+	display: inline;	
+}
+.menu-ngang ul li a{
+	display: inline-block;
+	padding: 0px 6px;
+	text-decoration: none;
+	background: blue;
+	color: white;
+}
+.menu-ngang a:hover {
+	color: yellow;
+
+}
